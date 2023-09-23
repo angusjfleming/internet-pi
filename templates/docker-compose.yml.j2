@@ -18,7 +18,7 @@ services:
     image: nginxproxy/nginx-proxy:latest
     restart: always
     ports:
-      - "88:80"
+      - "80:88"
     networks:
       - back-tier
       - front-tier
