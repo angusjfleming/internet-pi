@@ -52,7 +52,7 @@ services:
       - nginx-proxy
     environment:
       - VIRTUAL_HOST={{ domain_prometheus }}.{{ domain_name }}
-      - VIRTUAL_PORT=9090
+      - VIRTUAL_PORT=9099
 {% endif %}
 
   grafana:
